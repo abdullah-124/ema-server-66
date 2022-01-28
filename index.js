@@ -79,6 +79,10 @@ app.get('/', (req, res)=>{
     res.send('ema john server is running')
 })
 
+app.get('/hello', (req, res) =>{
+    res.send('hello updated here')
+})
+
 app.listen(port, ()=>{
     console.log('ema server running with ', port)
 })
